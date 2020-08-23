@@ -1,0 +1,56 @@
+{
+  "RegisterUser": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin",
+      "emailaddress": "admin@gmail.com",
+      "isAdmin": true
+    },
+    {
+      "username": "test123",
+      "password": "test123",
+      "emailaddress": "test123@.com",
+      "isAdmin": false,
+      "id": 2
+    }
+  ],
+  "orders": [
+    {
+      "userID": "2",
+      "firstName": "Order1",
+      "lastName": "User2",
+      "amount": 100,
+      "commission": 105,
+      "mobileNumber": "8765465456",
+      "address": "fdfdfdsfdsf",
+      "status": "Redeemed",
+      "date": "21-7-2020",
+      "id": 1
+    },
+    {
+      "userID": "2",
+      "firstName": "Order2",
+      "lastName": "User2",
+      "amount": 100,
+      "commission": 105,
+      "mobileNumber": "8765465456",
+      "address": "fdfdfdsfdsf",
+      "status": "Redeemed",
+      "date": "21-6-2020",
+      "id": 2
+    },
+    {
+      "userID": "2",
+      "firstName": "Order3",
+      "lastName": "User2",
+      "amount": 100,
+      "commission": 105,
+      "mobileNumber": "8765465456",
+      "address": "fdfdfdsfdsf",
+      "status": "Redeemed",
+      "date": "21-8-2020",
+      "id": 3
+    }
+  ]
+}
